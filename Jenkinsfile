@@ -8,7 +8,7 @@ pipeline {
 
         AWS_S3_BUCKET = "play222"
         ARTIFACT_NAME = "playdatenow0.war"
-        AWS_EB_APP_NAME = "playd2"
+        AWS_EB_APP_NAME = "play2"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENVIRONMENT = "play2-env"
         
